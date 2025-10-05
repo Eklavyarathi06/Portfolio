@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Eklavya Rathi Portfolio</title>
+
+<!-- Google fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<!-- icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+<div class="container header-inner">
+<a href="#home" class="brand">Eklavya<span class="dot">.</span></a>
+<nav class="nav">
+<ul class="nav-list">
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+<button class="hamburger" id="hamburger" aria-label="Open menu">
+<span class="bar"></span><span class="bar"></span><span class="bar"></span>
+</button>
+</div>
+</header>
+
+<main id="home">
+<section class="hero">
+<div class="hero-inner container">
+<div class="hero-text">
+<h1 class="reveal">Hi, I'm <span class="accent">Eklavya Rathi</span></h1>
+<p class="lead">Aspiring AI & ML Engineer — B.Sc (Data Science), learning ML systems and web dev.</p>
+<div class="cta-row">
+<a class="btn primary" href="#" download>Download Resume</a>
+<a class="btn ghost" href="#projects">View My Work</a>
+</div>
+</div>
+
+<div class="hero-card reveal">
+<img src="Eklavya_Photo.jpg" alt="Eklavya Rathi" class="avatar">
+<div class="card-body">
+<h3>Eklavya Rathi</h3>
+<p class="muted">Frontend • Java • Python • ML learner</p>
+<div class="socials">
+<a href="https://www.linkedin.com/in/eklavya-rathi-149071362?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+<a href="https://github.com/Eklavyarathi06" target="_blank"><i class="fab fa-github"></i></a>
+<a href="mailto:eklavya.25bcs10170@sst.scaler.com"><i class="fas fa-envelope"></i></a>
+</div>
+</div>
+</div>
+</div>
+
+<svg class="hero-deco" viewBox="0 0 800 200" preserveAspectRatio="none">
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#FF6B6B"/><stop offset="1" stop-color="#3B3B98"/></linearGradient></defs>
+<path d="M0,80 C150,200 350,-40 800,80 L800,200 L0,200 Z" fill="url(#g)" opacity="0.08"/>
+</svg>
+</section>
+
+<article id="about" class="section container">
+<div class="about-grid">
+<div class="about-text">
+<h2>About Me</h2>
+<p>I am <strong>Eklavya Rathi</strong>. I have finished my Class 10 & 12 from <em>Delhi Public School Moradabad</em>. Now I am studying at <strong>Scaler School of Technology</strong> and doing <strong>B.Sc in Data Science & Applications from IIT Madras</strong>. I want to become an AI & ML engineer and work on cool AI stuff.</p>
+</div>
+<div class="about-stats">
+<ul class="skills-list">
+<li><i class="fab fa-python"></i>Learning Python</li>
+<li><i class="fab fa-java"></i>Programming in Java</li>
+<li><i class="fas fa-code"></i>Web Development (HTML/CSS/JS)</li>
+</ul>
+</div>
+</div>
+</article>
+
+<section id="projects" class="section container">
+<h2>Projects</h2>
+<p class="muted">Some college and personal projects</p>
+<div class="grid projects-grid">
+<article class="project-card reveal-card">
+<img src="Dog.png" alt="Dog Grids project">
+<div class="project-body">
+<h3>Dog Grids</h3>
+<p>Interactive grid that shows dog pics and filters breeds (HTML/CSS/JS).</p>
+</div>
+</article>
+
+<article class="project-card reveal-card">
+<img src="Recipe.png" alt="Recipe webpage">
+<div class="project-body">
+<h3>Recipe Webpage</h3>
+<p>Small responsive recipe website with search and rating (HTML/CSS).</p>
+</div>
+</article>
+
+<article class="project-card reveal-card">
+<img src="ferrisWheel.png" alt="Ferris wheel project">
+<div class="project-body">
+<h3>Ferris Wheel</h3>
+<p>Canvas animation showing rotation and interactivity.</p>
+</div>
+</article>
+</div>
+</section>
+
+<section id="contact" class="section container">
+<h2>Contact</h2>
+<p class="muted">Email, LinkedIn, GitHub — happy to chat.</p>
+<div class="contact-grid">
+<div class="contact-info">
+<p><strong>Email:</strong> <a href="mailto:eklavya.25bcs10170@sst.scaler.com">eklavya.25bcs10170@sst.scaler.com</a></p>
+<p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/eklavya-rathi-149071362?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">linkedin.com/in/eklavya-rathi-149071362</a></p>
+<p><strong>GitHub:</strong> <a href="https://github.com/Eklavyarathi06" target="_blank">github.com/Eklavyarathi06</a></p>
+</div>
+<form class="contact-form" action="#" method="post" onsubmit="return false;">
+<input name="name" placeholder="Your name" required>
+<input type="email" name="email" placeholder="Your email" required>
+<textarea name="message" rows="5" placeholder="Message" required></textarea>
+<button class="btn primary" type="submit">Send Message</button>
+</form>
+</div>
+</section>
+
+<footer class="site-footer">
+<div class="container footer-inner">
+<p>© 2025 Eklavya Rathi — All rights reserved.</p>
+<div class="footer-links">
+<a href="https://www.linkedin.com/in/eklavya-rathi-149071362?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app " target="_blank"><i class="fab fa-linkedin"></i></a>
+<a href="https://github.com/Eklavyarathi06" target="_blank"><i class="fab fa-github"></i></a>
+</div>
+</div>
+</footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
